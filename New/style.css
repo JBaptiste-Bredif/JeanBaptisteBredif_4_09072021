@@ -7,6 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.h3_replacement {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333 !important;
+}
+
+.h2_replacement {
+  font-size: 22px;
+  line-height: 1.4em;
+  font-family: "helvetica";
+  font-weight: 400;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
