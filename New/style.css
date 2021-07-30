@@ -7,6 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/**/
+.contrast {
+  filter: contrast(2);
+}
+.text-contrast {
+  color: #333333 !important;
+}
 .h3_replacement {
   font-size: 16px;
   text-transform: uppercase;
@@ -21,6 +28,18 @@ body {
   font-weight: 400;
 }
 
+.row_text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.text_img {
+  font-style: italic;
+  font-size: 21px;
+}
+
+/**/
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -834,11 +853,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.jpeg");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
